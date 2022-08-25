@@ -66,9 +66,11 @@ header li{
 /* footer */
 footer{
     background: black;
+    bottom: 0;
     color: gray;
     margin:auto;
     padding: 10px 20px;
+    position: absolute;
     text-align: center;
     width: 100%;
 }
