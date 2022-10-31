@@ -12,6 +12,7 @@ section {
     place-items: center;
     align-content: center;
     min-height: 100vh;
+    margin: 0px;
 }
 .hidden{
     filter: blue(5px);
@@ -29,3 +30,25 @@ section {
         transition: none;
     }
 }
+
+
+#heroBackground {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 98vw;
+    z-index: -1;
+}
+.hero{
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: -.0625rem -.0625rem 0 #6BFFFF, .0625rem .0625rem 0 #FF819E;
+}
+
