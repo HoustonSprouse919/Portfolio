@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel = "stylesheet" href = "style.css">
-    <script defer src ="main.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
     <div class="navBar">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">About Me</a>
-        <a href="#contact">My Work</a>
-        <a href="#about">Contact Me</a>
+      <a class="active" href="#home">Home</a>
+      <a href="#news">About Me</a>
+      <a href="#contact">My Work</a>
+      <a href="#about">Contact Me</a>
+    </div>
+
+    <div class="header">
+      <div id="leftSide" class="side">
+        <h1 class="title">
+          Welcome to my <span class="coolText">Portfolio</span>
+        </h1>
       </div>
+      <div id="rightSide" class="side">
+        <h1 class="title">Design made <span class="coolText">Simple</span></h1>
+      </div>
+    </div>
 
-
-<div class = "header">
-        <div id = "leftSide" class = "side">
-    <h1 class = "title">Welcome to my 
-        <span class = "coolText">Portfolio</span></h1>
-</div>
-<div id = "rightSide" class = "side">
-    <h1 class = "title">Design made
-        <span class = "coolText">Simple</span></h1>
-</div>
-</div>
-
-
-    <section class = "hidden" id = "aboutMe">
-        <div id ="bio">
+    <section class="hidden" id="aboutMe">
+      <div id="bio">
         <h2>About me</h2>
-        <p>Nice to meet you, my name is Tyler Sprouse but I go by Houston. I'm beginner a web developer and designer from Charlotte NC. 
-            I've worked jobs from retail to full on research and design.<br><br>
-            I'm passionate about weightlifting, anime, nature, and creating / finding cool and original websites.<br> <br>
-            I'm always ready to learn more about development and work with great people while doing so.
+        <p>
+          Nice to meet you, my name is Tyler Sprouse but I go by Houston. I'm a
+          beginner web developer and designer from Charlotte NC. I've worked
+          jobs from retail to full on research and design.<br/><br/>
+          I'm passionate about weightlifting, anime, nature, and creating /
+          finding cool and original websites.<br/>
+          <br/>
+          I'm always ready to learn more about development and work with great
+          people while doing so.
         </p>
-        </div>
-        <img src="thisPicGoesHard.jpg">
+      </div>
+      <img id="thisPicGoesHard" />
     </section>
 
-    <section class = "hidden">
+    <section class="hidden" id="myWork">
+      <div class="workArea">
         <h2>My work</h2>
-        <div>a</div>
-        <div>b</div>
-        <div>c</div>
+        <div class="projects">
+          <div class="projectItem"><h3 class = "projectTitle">This portfolio website :)</h3><img id ="portfolioPic"></div>
+          <div class="projectItem"><h3 class = "projectTitle">A simple and sleek Todo List</h3><img id ="todoListPic"></div>
+          <div class="projectItem"><h3 class = "projectTitle">A simple restaurant page</h3><img id ="restaurantPagePic"></div>
+          <div class="projectItem"><h3 class = "projectTitle">A simple game of Tik Tac Toe</h3><img id ="tikTacToePic"></div>
+          <div class="projectItem"><h3 class = "projectTitle">A layout for a capybara themed social media website</h3><img id ="capybaraPic"></div>
+        </div>
+      </div>
     </section>
 
-</body>
+    <section class="hidden" id="contactMe">
+        <div id="contactSection">
+            <h3>Where to contact me</h3>
+        </div>
+        <img id="thisPicGoesHard" />
+      </section>
+  </body>
 </html>

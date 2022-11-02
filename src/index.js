@@ -1,3 +1,10 @@
+import thisPicGoesHard from './thisPicGoesHard.jpg';
+import portfolio from './portfolio.png';
+import todoListPic from './todoListPic.png';
+import pizzaWebsitePic from './pizzaWebsite.png';
+import gamePic from './gamePic.png';
+import capybaraPic from './capybaraPic.png';
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -17,3 +24,21 @@ const handleOnMove = (e) => {
 };
 document.onmousemove = (e) => handleOnMove(e);
 document.ontouchmove = (e) => handleOnMove(e.touches[0]);
+
+let myPic = document.querySelector('#thisPicGoesHard');
+myPic.src = thisPicGoesHard;
+
+myPic = document.querySelector('#portfolioPic');
+myPic.src = portfolio;
+
+myPic = document.querySelector('#todoListPic');
+myPic.src = todoListPic;
+
+myPic = document.querySelector('#restaurantPagePic');
+myPic.src = pizzaWebsitePic;
+
+myPic = document.querySelector('#tikTacToePic');
+myPic.src = gamePic;
+
+myPic = document.querySelector('#capybaraPic');
+myPic.src = capybaraPic;
