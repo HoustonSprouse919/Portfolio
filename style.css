@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap');
+body::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+:root {
+    --lightBlue: #A8D0E6;
+    --blue: #373785;
+    --darkBlue: #24305E;
+    --redOrange: #f76c6c;
+    --yellow: #f8e9a1;
+  }
 body{
     background-color: #131316;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
+    
     padding: 0;
     margin: 0;
 }
@@ -34,17 +49,17 @@ body{
     height: 100vh;
 }
 #leftSide{
-    background-color: #A8D0E6;
+    background-color: var(--lightBlue);
     z-index: 2;
 }
 #leftSide .coolText{
-    color: #f76C6C;
+    color: var(--redOrange);
 }
 #rightSide{
-    background-color: #f76C6C;
+    background-color: var(--redOrange);
 }
 #rightSide .coolText{
-    color: #A8D0E6;
+    color: var(--lightBlue);
 }
 .side{
     display: grid;
@@ -99,7 +114,7 @@ section {
 */
 
 #aboutMe{
-    background-color: #24305E;
+    background-color: var(--darkBlue);
     grid: 1fr 4fr 1fr / 2fr 1fr;
     text-align: left;
 }
@@ -139,4 +154,50 @@ section {
     object-fit: cover;
     padding-right: 10px;
     width: 90%;
+}
+#myWork{
+    background-color: var(--blue);
+    display: inline-block;
+}
+#myWork .workArea{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+#myWork h2{
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 5% 0px 1% 0%;
+}
+#myWork .projects{
+    align-items: top;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0% 2%;
+}
+#myWork .projectItem{
+    border-radius: 5%;
+    display: inline-block;
+    height: auto;
+    margin: 10px;
+    padding: 1%;
+    width: 20vw;
+}
+#myWork .projectItem h3{
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+#myWork .projectItem img{
+    border-radius: 5%;
+    outline: #131316;
+    height: 15vw;
+    width: 100%;
+}
+
+#contactMe{
+    background-color: var(--redOrange);
+    height: 100%;
+    width: 100%;
 }
