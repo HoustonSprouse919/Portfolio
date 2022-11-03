@@ -239,7 +239,7 @@ section {
     gap: 3vw;
     justify-content: center;
     list-style: none;
-    margin: 0 3vw 0 0;
+    padding: 0 0vw 0 0;
 }
 #contactSection li{
   z-index:9999999;
@@ -327,11 +327,12 @@ section {
     font-size: 5vw;
   }
   #contactSection ul{
+    background-color: red;
       display: flex;
       gap: 10vw;
       justify-content: center;
       list-style: none;
-      margin: 0 5vw 0 0;
+      padding: 0 0vw 0 0;
   }
   #contactSection li{
     z-index:9999999;
