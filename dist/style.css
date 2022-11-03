@@ -239,7 +239,7 @@ section {
     gap: 3vw;
     justify-content: center;
     list-style: none;
-    margin: 0 2vw 0 0;
+    margin: 0 3vw 0 0;
 }
 #contactSection li{
   z-index:9999999;
@@ -297,6 +297,7 @@ section {
 
   #myWork {
     display: inline-block;
+    padding: 10px;
   }
   #myWork .workArea {
     padding-top: 15%;
@@ -313,6 +314,9 @@ section {
   #myWork .projectItem img {
     height: 30vw;
   }
+  .resumeLink{
+    font-size: 5vw;
+  }
   #contactSection {
     padding: 0% 10% 50% 10%;
   }
@@ -327,7 +331,7 @@ section {
       gap: 10vw;
       justify-content: center;
       list-style: none;
-      margin: 0 2vw 0 0;
+      margin: 0 5vw 0 0;
   }
   #contactSection li{
     z-index:9999999;
