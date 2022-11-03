@@ -1,11 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap");
-a:link { text-decoration: none;}
-a:visited { text-decoration: none;color: white; }
-a:hover { text-decoration: none;color: white; }
-a:active { text-decoration: none;color: white; }
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap"); /*importing fonts*/
+a:link {
+  text-decoration: none;
+} /*keeps all links from turning blue*/
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  text-decoration: none;
+  color: white;
+}
 html {
-    scroll-behavior: smooth;
-  }
+  /*makes scrolling smooth and removes ugly scroll bars*/
+  scroll-behavior: smooth;
+}
 body::-webkit-scrollbar {
   display: none;
 }
@@ -14,6 +26,7 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 :root {
+  /*adding color variables that can be changed*/
   --lightBlue: #a8d0e6;
   --blue: #373785;
   --darkBlue: #24305e;
@@ -27,7 +40,7 @@ body {
   padding: 0;
   margin: 0;
 }
-
+/*nav bar section*/
 .navBar {
   display: flex;
   padding-top: 1vh;
@@ -54,6 +67,7 @@ body {
   display: flex;
   height: 100vh;
 }
+/*all of this is for the changing hero*/
 #leftSide {
   background-color: var(--lightBlue);
   z-index: 2;
@@ -89,6 +103,7 @@ body {
   line-height: 0.08em;
 }
 
+/*some default css for moving sections*/
 section {
   display: grid;
   place-items: center;
@@ -118,7 +133,7 @@ section {
   text-shadow: -.0625rem -.0625rem 0 #6BFFFF, .0625rem .0625rem 0 #FF819E;
 }
 */
-
+/*about me section*/
 #aboutMe {
   background-color: var(--darkBlue);
   grid: 1fr 4fr 1fr / 2fr 1fr;
@@ -163,6 +178,7 @@ section {
   padding-right: 10px;
   width: 90%;
 }
+/*My work section*/
 #myWork {
   background-color: var(--blue);
   display: inline-block;
@@ -207,11 +223,11 @@ section {
   height: 15vw;
   width: 100%;
 }
-.resumeLink{
+.resumeLink {
   color: var(--redOrange);
   font-size: 2vw;
 }
-
+/*reach out to me section*/
 #contactMe {
   background-color: var(--yellow);
 }
@@ -234,33 +250,33 @@ section {
   font-size: 1.5vw;
   font-weight: bold;
 }
-#contactSection ul{
-    display: flex;
-    gap: 3vw;
-    justify-content: center;
-    list-style: none;
-    padding: 0 0vw 0 0;
+#contactSection ul {
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+  list-style: none;
+  padding: 0 0vw 0 0;
 }
-#contactSection li{
-  z-index:9999999;
+#contactSection li {
+  z-index: 9999999;
 }
-#contactSection svg{
-    color: black;
+#contactSection svg {
+  color: black;
 }
-.spacer{
+.spacer {
   aspect-ratio: 900/450;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.layer1{
-  background-image: url('./layered-waves.svg');
+.layer1 {
+  background-image: url("./layered-waves.svg");
   position: absolute;
   bottom: 0;
 }
-
-@media (max-width:800px){
+/*changing css for different widths of screens aka mobile*/
+@media (max-width: 800px) {
   .navBar a {
     font-size: 3vw;
   }
@@ -288,7 +304,7 @@ section {
     position: relative;
     bottom: -6px; /* your padding + border-width */
   }
-  
+
   #aboutMe #bio p {
     font-family: "Rubik", sans-serif;
     font-size: 3.5vw;
@@ -314,7 +330,7 @@ section {
   #myWork .projectItem img {
     height: 30vw;
   }
-  .resumeLink{
+  .resumeLink {
     font-size: 5vw;
   }
   #contactSection {
@@ -326,32 +342,21 @@ section {
   #contactSection h3 {
     font-size: 5vw;
   }
-  #contactSection ul{
-      display: flex;
-      gap: 10vw;
-      justify-content: center;
-      list-style: none;
-      padding: 0 0vw 0 0;
+  #contactSection ul {
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    list-style: none;
+    padding: 0 0vw 0 0;
   }
-  #contactSection li{
-    z-index:9999999;
+  #contactSection li {
+    z-index: 9999999;
   }
-  #contactSection svg{
-      color: black;
-      transform: scale(2.0);
+  #contactSection svg {
+    color: black;
+    transform: scale(2);
   }
-  .spacer{
-    aspect-ratio: 900/450;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .layer1{
-    background-image: url('./layered-waves.svg');
-    position: absolute;
-    bottom: 0;
+  .layer1 {
     height: 80%;
   }
-
 }
