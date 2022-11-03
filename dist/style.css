@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap");
+a:visited { 
+ text-decoration: none; 
+ color: white;
+}
 html {
     scroll-behavior: smooth;
   }
