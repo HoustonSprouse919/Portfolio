@@ -4,6 +4,7 @@ import todoListPic from './todoListPic.png';
 import pizzaWebsitePic from './pizzaWebsite.png';
 import gamePic from './gamePic.png';
 import capybaraPic from './capybaraPic.png';
+import mixerFixer from './mixerFixer.png';
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -42,3 +43,6 @@ myPic.src = gamePic;
 
 myPic = document.querySelector('#capybaraPic');
 myPic.src = capybaraPic;
+
+myPic = document.querySelector('#mixerFixerPic');
+myPic.src = mixerFixer;
