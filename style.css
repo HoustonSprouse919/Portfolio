@@ -20,7 +20,6 @@ body {
   background-color: #131316;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
-
   padding: 0;
   margin: 0;
 }
@@ -192,6 +191,7 @@ section {
   width: 20vw;
 }
 #myWork .projectItem h3 {
+  color: white;
   font-family: "Rubik", sans-serif;
   font-size: 1.4vw;
   font-weight: bold;
@@ -286,7 +286,10 @@ section {
     font-size: 3.5vw;
     font-weight: bold;
   }
-
+#aboutMe .resumeLink{
+  color: var(--redOrange);
+  text-decoration: none;
+}
 
   #myWork {
     display: inline-block;
