@@ -1,88 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"  />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="main.js"></script>
-  </head>
-  <body>
-    <div class="navBar">
-      <a class="active" href="#home">Home</a>
-      <a href="#aboutMe">About Me</a>
-      <a href="#myWork">My Work</a>
-      <a href="#contactMe">Contact Me!</a>
+
+<head>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <div class="navBar">
+    <a class="active" href="#home">Home</a>
+    <a href="#aboutMe">About Me</a>
+    <a href="#myWork">My Work</a>
+    <a href="#contactMe">Contact Me!</a>
+  </div>
+
+  <div class="header">
+    <div id="leftSide" class="side">
+      <h1 class="title">
+        Welcome to my <span class="coolText">Portfolio</span>
+      </h1>
     </div>
+    <div id="rightSide" class="side">
+      <h1 class="title">Welcome to my <span class="coolText">World</span></h1>
+    </div>
+  </div>
 
-    <div class="header">
-      <div id="leftSide" class="side">
-        <h1 class="title">
-          Welcome to my <span class="coolText">Portfolio</span>
-        </h1>
-      </div>
-      <div id="rightSide" class="side">
-        <h1 class="title">Welcome to my <span class="coolText">World</span></h1>
+  <section class="hidden" id="aboutMe">
+    <div id="bio">
+      <h2>About me</h2>
+      <p>
+        Nice to meet you, my name is Tyler Sprouse but I go by Houston. I'm a
+        web developer and designer from Charlotte NC. I've worked
+        jobs from retail to full on research and design.<br /><br />
+        I'm passionate about weightlifting, anime, nature, and creating /
+        finding cool and original websites.<br />
+        <br />
+        I'm always ready to learn more about development and work with great
+        people while doing so!
+        <br />
+        <br />
+        <a class="resumeLink"
+          href="https://docs.google.com/document/d/1RzTtADNvGZQtUbtWauiUDEGMunAbKgMaq_N7YAdcMXc/edit?usp=sharing">Resume
+          -></a>
+      </p>
+    </div>
+    <img id="thisPicGoesHard" />
+  </section>
+
+  <section class="hidden" id="myWork">
+    <div class="workArea">
+      <h2>My work</h2>
+      <div class="projects">
+        <a href="https://houstonsprouse919.github.io/Portfolio/">
+          <div class="projectItem">
+            <h3 class="projectTitle">This portfolio website :)</h3><img id="portfolioPic">
+          </div>
+        </a>
+        <a href="https://houstonsprouse919.github.io/TodoList/">
+          <div class="projectItem">
+            <h3 class="projectTitle">A simple and sleek Todo List</h3><img id="todoListPic">
+          </div>
+        </a>
+        <a href="https://houstonsprouse919.github.io/restaurantPage/">
+          <div class="projectItem">
+            <h3 class="projectTitle">This fake restaurant page</h3><img id="restaurantPagePic">
+          </div>
+        </a>
+        <a href="https://houstonsprouse919.github.io/TikTakToe/">
+          <div class="projectItem">
+            <h3 class="projectTitle">A game of Tik Tac Toe</h3><img id="tikTacToePic">
+          </div>
+        </a>
+        <a href="https://houstonsprouse919.github.io/dashBoardProject/">
+          <div class="projectItem">
+            <h3 class="projectTitle">A layout for a capybara themed social media website</h3><img id="capybaraPic">
+          </div>
+        </a>
+        <a href="">
+          <div class="projectItem">
+            <h3 class="projectTitle">A cocktail making website (currently down)</h3><img id="mixerFixerPic">
+          </div>
+        </a>
       </div>
     </div>
+  </section>
 
-    <section class="hidden" id="aboutMe">
-      <div id="bio">
-        <h2>About me</h2>
-        <p>
-          Nice to meet you, my name is Tyler Sprouse but I go by Houston. I'm a
-          web developer and designer from Charlotte NC. I've worked
-          jobs from retail to full on research and design.<br/><br/>
-          I'm passionate about weightlifting, anime, nature, and creating /
-          finding cool and original websites.<br/>
-          <br/>
-          I'm always ready to learn more about development and work with great
-          people while doing so!
-          <br/>
-          <br/>
-          <a class = "resumeLink" href="https://docs.google.com/document/d/1RzTtADNvGZQtUbtWauiUDEGMunAbKgMaq_N7YAdcMXc/edit?usp=sharing">Resume -></a>
-        </p>
-      </div>
-      <img id="thisPicGoesHard" />
-    </section>
-
-    <section class="hidden" id="myWork">
-      <div class="workArea">
-        <h2>My work</h2>
-        <div class="projects">
-         <a href="https://houstonsprouse919.github.io/Portfolio/"> <div class="projectItem"><h3 class = "projectTitle">This portfolio website :)</h3><img id ="portfolioPic"></div></a>
-         <a href="https://houstonsprouse919.github.io/TodoList/"> <div class="projectItem"><h3 class = "projectTitle">A simple and sleek Todo List</h3><img id ="todoListPic"></div></a>
-         <a href="https://houstonsprouse919.github.io/restaurantPage/"><div class="projectItem"><h3 class = "projectTitle">This fake restaurant page</h3><img id ="restaurantPagePic"></div></a>
-         <a href="https://houstonsprouse919.github.io/TikTakToe/"><div class="projectItem"><h3 class = "projectTitle">A game of Tik Tac Toe</h3><img id ="tikTacToePic"></div></a>
-         <a href="https://houstonsprouse919.github.io/dashBoardProject/"><div class="projectItem"><h3 class = "projectTitle">A layout for a capybara themed social media website</h3><img id ="capybaraPic"></div></a>
-         <div class="projectItem"><h3 class = "projectTitle">A cocktail making website (currently down)</h3><img id ="mixerFixerPic"></div></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="hidden" id="contactMe">
-        <div id="contactSection">
-            <h2>Want to chat?
-              <br>Feel free to reach out to me :)
-            </h2>
-            <h3>You can reach me for work inquiries, networking, conversations, or just stop by to say hi
-              at any of the contacts below!
-            </h3>
-            <div class = "contacts">
-              <ul>
-                <li> <a href = "mailto: houstonsprouse@gmail.com"><svg xmlns="http://www.w3.org/2000/svg"  width="5vw" height="5vw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a></li>
-                <li> <a href = "https://discord.com/users/244527981895221258"><svg width="5vw" height="5vw" viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-                  <g>
-                      <path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#5865F2" fill-rule="nonzero"></path>
-                  </g>
+  <section class="hidden" id="contactMe">
+    <div id="contactSection">
+      <h2>Want to chat?
+        <br>Feel free to reach out to me :)
+      </h2>
+      <h3>You can reach me for work inquiries, networking, conversations, or just stop by to say hi
+        at any of the contacts below!
+      </h3>
+      <div class="contacts">
+        <ul>
+          <li> <a href="mailto: houstonsprouse@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="5vw"
+                height="5vw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
               </svg></a></li>
-                <li><a href = "https://www.linkedin.com/in/tyler-sprouse-b2805b207/""><svg xmlns="http://www.w3.org/2000/svg" width="5vw" height="4.5vw" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a></li>
-              </ul>
-            </div>
-        </div>
-        <div class ="spacer layer1"></div>
-      </section>
-  </body>
+          <li> <a href="https://discord.com/users/244527981895221258"><svg width="5vw" height="5vw"
+                viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                <g>
+                  <path
+                    d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"
+                    fill="#5865F2" fill-rule="nonzero"></path>
+                </g>
+              </svg></a></li>
+          <li><a href="https://www.linkedin.com/in/tyler-sprouse-b2805b207/""><svg xmlns=" http://www.w3.org/2000/svg"
+              width="5vw" height="4.5vw" viewBox="0 0 24 24">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="spacer layer1"></div>
+  </section>
+</body>
+
 </html>
