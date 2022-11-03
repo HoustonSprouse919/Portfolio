@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap");
-a:visited { 
- text-decoration: none; 
- color: white;
-}
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;color: white; }
+a:hover { text-decoration: none;color: white; }
+a:active { text-decoration: none;color: white; }
 html {
     scroll-behavior: smooth;
   }
@@ -207,6 +207,10 @@ section {
   height: 15vw;
   width: 100%;
 }
+.resumeLink{
+  color: var(--redOrange);
+  font-size: 2vw;
+}
 
 #contactMe {
   background-color: var(--yellow);
@@ -290,10 +294,6 @@ section {
     font-size: 3.5vw;
     font-weight: bold;
   }
-#aboutMe .resumeLink{
-  color: var(--redOrange);
-  text-decoration: none;
-}
 
   #myWork {
     display: inline-block;
