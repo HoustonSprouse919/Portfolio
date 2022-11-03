@@ -327,7 +327,6 @@ section {
     font-size: 5vw;
   }
   #contactSection ul{
-    background-color: red;
       display: flex;
       gap: 10vw;
       justify-content: center;
