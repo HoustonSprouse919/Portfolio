@@ -251,7 +251,7 @@ section {
   bottom: 0;
 }
 
-@media (max-width:500px){
+@media (max-width:800px){
   .navBar a {
     font-size: 3vw;
   }
@@ -294,7 +294,7 @@ section {
     padding-top: 15%;
   }
   #myWork h2 {
-    font-size: 16vw;
+    font-size: 10vw;
   }
   #myWork .projectItem {
     width: 60vw;
@@ -324,7 +324,7 @@ section {
   }
   #contactSection ul{
       display: flex;
-      gap: 3vw;
+      gap: 10vw;
       justify-content: center;
       list-style: none;
       margin: 0 2vw 0 0;
@@ -334,6 +334,7 @@ section {
   }
   #contactSection svg{
       color: black;
+      transform: scale(2.0);
   }
   .spacer{
     aspect-ratio: 900/450;
