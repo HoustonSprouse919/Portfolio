@@ -202,6 +202,22 @@ section {
   justify-content: center;
   margin: 0% 2%;
 }
+#myWork a:nth-child(2){
+  transition-delay: 200ms;
+}
+#myWork a:nth-child(3){
+  transition-delay: 400ms;
+}
+#myWork a:nth-child(4){
+  transition-delay: 600ms;
+}
+#myWork a:nth-child(5){
+  transition-delay: 800ms;
+}
+#myWork a:nth-child(6){
+  transition-delay: 1000ms;
+}
+
 #myWork .projectItem {
   border-radius: 5%;
   display: inline-block;
@@ -329,6 +345,22 @@ section {
   }
   #myWork .projectItem img {
     height: 30vw;
+  }
+
+  #myWork a:nth-child(2){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(3){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(4){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(5){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(6){
+    transition-delay: 0ms;
   }
   .resumeLink {
     font-size: 5vw;
