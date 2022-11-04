@@ -292,6 +292,95 @@ section {
   bottom: 0;
 }
 /*changing css for different widths of screens aka mobile*/
+@media (max-width: 1100px) {
+  .navBar a {
+    font-size: 2vw;
+  }
+  #aboutMe {
+    display: inline-block;
+    text-align: center;
+  }
+  #aboutMe #bio {
+    height: 100%;
+    padding: 10% 0% 0% 0%;
+    text-align: left;
+  }
+  #aboutMe #bio h2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 7vw;
+    font-weight: bold;
+    margin: 0px 0px 2% 5%;
+  }
+  #aboutMe #bio h2::after {
+    border-bottom: 3px solid rgb(224, 224, 224);
+    width: 15%;
+  }
+
+  #aboutMe #bio p {
+    font-size: 3vw;
+  }
+  #aboutMe img{
+    padding: 0 0 5% 0;
+    width: 65%;
+  }
+
+  #myWork h2 {
+    font-size: 8vw;
+  }
+  #myWork .projectItem {
+    width: 50vw;
+  }
+  #myWork .projectItem h3 {
+    font-size: 3vw;
+  }
+  #myWork .projectItem img {
+    height: 25vw;
+  }
+
+  #myWork a:nth-child(2){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(3){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(4){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(5){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(6){
+    transition-delay: 0ms;
+  }
+  .resumeLink {
+    font-size: 5vw;
+  }
+  #contactSection {
+    padding: 0% 10% 35% 10%;
+  }
+  #contactSection h2 {
+    font-size: 8vw;
+  }
+  #contactSection h3 {
+    font-size: 3vw;
+  }
+  #contactSection ul {
+    gap: 10vw;
+  }
+  #contactSection li {
+    z-index: 9999999;
+  }
+  #contactSection svg {
+    color: black;
+    transform: scale(2);
+  }
+  .layer1 {
+    height: 80%;
+    z-index: -9999999;
+  }
+}
+
+
 @media (max-width: 800px) {
   .navBar a {
     font-size: 3vw;
