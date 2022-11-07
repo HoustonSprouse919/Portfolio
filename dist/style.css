@@ -217,7 +217,9 @@ section {
 #myWork a:nth-child(6){
   transition-delay: 1000ms;
 }
-
+#myWork a:nth-child(7){
+  transition-delay: 1200ms;
+}
 #myWork .projectItem {
   border-radius: 5%;
   display: inline-block;
