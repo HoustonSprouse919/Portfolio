@@ -5,6 +5,7 @@ import pizzaWebsitePic from './pizzaWebsite.png';
 import gamePic from './gamePic.png';
 import capybaraPic from './capybaraPic.png';
 import mixerFixer from './mixerFixer.png';
+import signUpPage from './signUpPage.png';
 
 const observer = new IntersectionObserver((entries) => { // this is an observer to see if
   entries.forEach((entry) => { // current section is on screen
@@ -46,3 +47,6 @@ myPic.src = capybaraPic;
 
 myPic = document.querySelector('#mixerFixerPic');
 myPic.src = mixerFixer;
+
+myPic = document.querySelector('#signUpPagePic');
+myPic.src = signUpPage;
