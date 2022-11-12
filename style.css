@@ -220,6 +220,9 @@ section {
 #myWork a:nth-child(7){
   transition-delay: 1200ms;
 }
+#myWork a:nth-child(8){
+  transition-delay: 1400ms;
+}
 #myWork .projectItem {
   border-radius: 5%;
   display: inline-block;
@@ -354,6 +357,12 @@ section {
   #myWork a:nth-child(6){
     transition-delay: 0ms;
   }
+  #myWork a:nth-child(7){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(8){
+    transition-delay: 0ms;
+  }
   .resumeLink {
     font-size: 5vw;
   }
@@ -451,6 +460,12 @@ section {
     transition-delay: 0ms;
   }
   #myWork a:nth-child(6){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(7){
+    transition-delay: 0ms;
+  }
+  #myWork a:nth-child(8){
     transition-delay: 0ms;
   }
   .resumeLink {
