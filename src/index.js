@@ -6,6 +6,7 @@ import gamePic from './gamePic.png';
 import capybaraPic from './capybaraPic.png';
 import mixerFixer from './mixerFixer.png';
 import signUpPage from './signUpPage.png';
+import weatherApp from './weatherAppPic.png';
 
 const observer = new IntersectionObserver((entries) => { // this is an observer to see if
   entries.forEach((entry) => { // current section is on screen
@@ -50,3 +51,6 @@ myPic.src = mixerFixer;
 
 myPic = document.querySelector('#signUpPagePic');
 myPic.src = signUpPage;
+
+myPic = document.querySelector('#weatherAppPic');
+myPic.src = weatherApp;
